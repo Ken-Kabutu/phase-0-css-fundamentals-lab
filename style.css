@@ -3,3 +3,61 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px; /* Adjust the height as per your requirement */
+}
+.navbar-container {
+  background-color: #333;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.web-image {
+  display: block;
+  margin: 0 auto;
+  font-size: small;
+}
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+#details {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+#details div{
+  background-color: #333;
+  text-align: center;
+  width: 25%;
+  display: block;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
